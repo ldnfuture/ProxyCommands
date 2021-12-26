@@ -1,0 +1,17 @@
+main: at.ldnfuture.proxycommands.main.Main
+name: ProxyCommands
+version: 1.0.0
+author: LDN_Future
+commands:
+   server:
+   find:
+   report:
+   rules:
+   ping:
+   ignore:
+   ignoreall:
+   message:
+   send:
+   online:
+   alert:
+ 

@@ -1,0 +1,83 @@
+Hubs:
+- Hub-1
+- Hub-2
+- Lobby-1
+HubAliases:
+- lobby
+- hub
+Limbo: 'Limbo-1'
+Motd:
+  Allow: true
+  Random: false
+  List:
+TabList: #Available placeholders: {server}, {newline}, {ping}, {player}
+  Allow: true
+  header: '&a&lServer&c&lName{newline}&fServer: &c{server}'
+  footer: '{newline}&b&lWeb-Site: www.google.com'
+Messages:
+  NoPermissions: '&cYou do not have permission!'
+  NoOnline: '&cThis player is offline!'
+  Server:
+    Allow: true
+    Server: '&aYou were teleported to the server &2{server}'
+    Usage: '&eUse - &6/server [server]'
+    NoExists: '&cThis server does not exist!'
+    AlreadyConnected: '&cYou are already on this server!'
+  Find:
+    Allow: true
+    Usage: '&eUse - &6/find [username]'
+    Find: '&a{player} &flocated on the server - &a{server}'
+  Report: |-
+    &fIf you want to file a complaint against a player,
+    &fthen you can leave a request in our discussion
+    &fcomplaints: &dweb-site and more.
+  Rules: |-
+    &fThe rules are written in our
+    &fweb-site &dwww.google.com
+  Ping:
+    Allow: true
+    Ping: '&eYour ping: &6{ping}'
+    Other: '&ePlayer ping &6{player} &e- &6{ping}'
+  Ignore:
+    Allow: true
+    Usage: '&euse - &6/ignore [username]'
+    Yourself: '&cYou cannot ignore yourself O_o!'
+    Ignore: '&fNow you ignore the player &a{player}'
+    UnIgnore: '&fYou don t ignore anymore &a{player}'
+    Target: '&cThis player has a disabled &4Private messages'
+    You: '&cYou are ignoring this player!'
+  IgnoreAll:
+    Allow: true
+    Ignore: '&fNow nobody can write to you in &4Private messages'
+    UnIgnore: '&fNow everyone can write to you'
+  Message:
+    Allow: true
+    Yourself: '&cYou cannot send messages to yourself!'
+    Usage: '&eUse - &6/msg [username] [message]'
+    To: '&6[{from} > You]: &f{message}'
+    From: '&6[You > {target}]: &f{message}'
+  Where:
+    Allow: true
+    Where: '&fYou are on the server - &a{server}'
+  Send:
+    Allow: true
+    Usage: '&eUse - &6/send [username] [server]'
+    From: '&fYou teleported &a{player} &fon server &a{server}'
+    To: '&fYou were teleported &a{sender} &fon server &a{server}'
+  Online:
+    Allow: true
+    Online: '&fShared online servers - &a{online}'
+    Another: '&fOnline servers &a{server} &f- &a{online}'
+  Alert:
+    Allow: true
+    Usage: '&eUse - &6/alert [message]'
+    Title:
+      header: '&e&lAlert'
+      footer: '&f{message}'
+    Chat: '&e&lAlert: &f{message}'
+  Reload: '&aConfiguration reloaded successfullyа!'
+  Hub:
+    Allow: true
+    Already: '&cYou are already in the lobby!'
+    NeDostupnoNiOdnogo: '&cAll lobbies are inaccessible!'
+    LimboKick: '&cServer, where you were, fell, move you to Limbo-1: {reason}'
