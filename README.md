@@ -10,12 +10,4 @@ This plugin was written and published by LDN_Future. The plugin is accessible to
 
 This Plugin includes the following commands:
 
-/alert
-/bungee
-/end
-/find
-/hub
-/ignoreall
-/ignore
-/msg
-/online
+/alert; /bungee; /end; /find; /hub; /ignoreall; /ignore; /msg; /online
