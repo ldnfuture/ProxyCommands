@@ -3,15 +3,12 @@ name: ProxyCommands
 version: 1.0.0
 author: LDN_Future
 commands:
-   server:
-   find:
-   report:
-   rules:
-   ping:
-   ignore:
-   ignoreall:
-   message:
-   send:
-   online:
    alert:
- 
+   bungee:
+   end:
+   find:
+   hub:
+   ignoreall:
+   ignore:
+   msg:
+   online:
